@@ -23,7 +23,7 @@ function Table({ data }) {
                             <td>{job.company?.name || 'name not provided'}</td>
                             <td>{job.countries[0]?.name || 'country not provided'}</td>
                             <td>{job.cities[0]?.name || 'city not provided'}</td>
-                            <td>{job.remotes[0]?.type ? <i className="fas fa-check" style={{color: '#80caa9'}} /> : <i className="fas fa-times" style={{ color: '#ff7e74' }} />}</td>
+                            <td>{job.remotes[0]?.type ? <i className="fas fa-check" title="yes" style={{color: '#80caa9'}} /> : <i className="fas fa-times" title="no" style={{ color: '#ff7e74' }} />}</td>
                         </tr>))
                         :
                         <tr>

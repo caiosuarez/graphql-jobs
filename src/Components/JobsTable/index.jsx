@@ -13,7 +13,7 @@ function Table({ data }) {
                         <th>Company</th>
                         <th>Country</th>
                         <th>City</th>
-                        <th>mode</th>
+                        <th>Remote</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -23,7 +23,7 @@ function Table({ data }) {
                             <td>{job.company?.name || 'name not provided'}</td>
                             <td>{job.countries[0]?.name || 'country not provided'}</td>
                             <td>{job.cities[0]?.name || 'city not provided'}</td>
-                            <td>{job.remotes[0]?.type || 'mode not provided'}</td>
+                            <td>{job.remotes[0]?.type ? <i className="fas fa-check" style={{color: '#80caa9'}} /> : <i className="fas fa-times" style={{ color: '#ff7e74' }} />}</td>
                         </tr>))
                         :
                         <tr>

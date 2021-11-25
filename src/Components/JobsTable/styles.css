@@ -1,0 +1,47 @@
+.table-wrapper {
+    position: relative;
+    overflow: auto;
+    width: 100%;
+    max-height: 610px;
+  }
+  
+  .table-wrapper .table {
+    font-family: "Roboto";
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  .table-wrapper .table tr {
+    background-color: #121e22;
+      color: #b0b7bd;
+      vertical-align: middle;
+  }
+  
+  .table-wrapper .table th {
+    background-color: #3f5261;
+      color: #b0b7bd;
+      min-height: 35px;
+      padding: 3px;
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+      width: 25vw;
+  }
+  
+  .table-wrapper .table td, .table-wrapper .table th {
+    border: 1px solid #3f5261;
+      display: table-cell;
+      height: 35px;
+      overflow: hidden;
+      padding: 6px 8px;
+      text-align: center;
+      text-overflow: ellipsis;
+      vertical-align: middle;
+      min-width: 100px;
+  }
+  
+  .table-wrapper .table tr {
+    background-color: #121e22;
+      color: #b0b7bd;
+      vertical-align: middle;
+  }

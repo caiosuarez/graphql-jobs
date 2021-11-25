@@ -21,6 +21,24 @@ body {
   color: #b0b7bd;
 }
 
+.error-message {
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 9;
+}
+
+.error-message span {
+  font-family: "Roboto";
+  color: #b0b7bd;
+  font-size: 28px;
+}
+
 /* scrollbar customization  */
 ::-webkit-scrollbar {
   width: 5px;

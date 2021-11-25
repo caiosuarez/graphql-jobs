@@ -40,7 +40,9 @@ function App() {
   }
 
   if (isError) {
-    return <span>Error: {error.message}</span>
+    return <div className="error-message">
+      <span>Error: {error.message}</span>
+    </div>
   }
 
   return (
